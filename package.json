@@ -1,0 +1,39 @@
+{
+  "name": "pi-ds-search",
+  "version": "0.1.0",
+  "description": "DeepSeek Search & Fetch API tools for the pi coding agent",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "deepseek",
+    "web-search",
+    "web-fetch",
+    "ai-agent",
+    "llm-tools"
+  ],
+  "author": "Vyacheslav Artemyev (https://github.com/viartemev)",
+  "license": "MIT",
+  "homepage": "https://github.com/viartemev/pi-ds-search#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viartemev/pi-ds-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viartemev/pi-ds-search/issues"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./extensions/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
